@@ -3,3 +3,4 @@ marshmallow_sqlalchemy
 flask_sqlalchemy
 marshmallow
 pymsql
+cryptography
