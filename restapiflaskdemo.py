@@ -3,7 +3,7 @@ from flask import Flask,jsonify,request,Response,make_response
 from flask_sqlalchemy import SQLAlchemy
 from marshmallow_sqlalchemy import ModelSchema
 from marshmallow import fields
-#comments added
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://admin:admin@localhost:3306/devops'
 db = SQLAlchemy(app)
